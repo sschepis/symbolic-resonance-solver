@@ -169,7 +169,7 @@ The SRS algorithm uses three key innovations:
 2. **Resonance Operators**: Quantum-inspired evolution with constraint projectors
 3. **Entropy-Guided Collapse**: Polynomial-time convergence to solutions
 
-See [specs/SRS.md](../specs/SRS.md) for mathematical details.
+See [SRS_PAPER.md](SRS_PAPER.md) for mathematical details.
 
 ## 🛠️ Development
 
