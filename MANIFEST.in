@@ -1,0 +1,28 @@
+# Include documentation
+include README.md
+include LICENSE
+include SRS_PAPER.md
+include PUBLISHING.md
+include requirements.txt
+include requirements-dev.txt
+
+# Include package data
+recursive-include srs *.py
+recursive-include benchmarks *.py
+recursive-include tests *.py
+
+# Exclude build artifacts
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude __pycache__
+global-exclude .DS_Store
+global-exclude *.so
+global-exclude *.egg-info
+
+# Exclude development files
+exclude .coverage
+exclude .gitignore
+recursive-exclude htmlcov *
+recursive-exclude .pytest_cache *
+recursive-exclude dist *
+recursive-exclude build *

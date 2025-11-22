@@ -1,0 +1,176 @@
+# Symbolic Resonance Solver - Restricted Use License
+
+Copyright © 2024 Sebastian Schepis
+
+## 1. Grant of License
+
+Subject to the terms and conditions of this License, the copyright holders grant you a limited, non-exclusive, non-transferable, revocable license to use, copy, modify, and distribute this software ("Software") solely for **Permitted Uses** as defined below.
+
+## 2. Permitted Uses
+
+You may use this Software **ONLY** for the following purposes:
+
+### ✅ Educational Use
+- Use by accredited educational institutions for teaching and academic research
+- Student projects and coursework
+- Academic research and publications
+- Educational demonstrations and tutorials
+
+### ✅ Personal Use
+- Personal study, learning, and experimentation
+- Hobby projects with no commercial intent
+- Private entertainment and personal research
+- Amateur pursuits and personal development
+
+### ✅ Charitable/Non-Profit Use
+- Use by registered charitable organizations (501(c)(3) or equivalent)
+- Use by non-profit research organizations
+- Use by environmental protection organizations
+- Use by public health organizations (non-governmental)
+
+## 3. Prohibited Uses
+
+The following uses are **STRICTLY PROHIBITED** without obtaining a separate commercial or government license:
+
+### ❌ Commercial Use
+- Using the Software to provide services to third parties for compensation
+- Distributing the Software as part of a commercial product
+- Using the Software to develop, improve, or support commercial products or services
+- Any revenue-generating activity or commercial deployment
+- Use by for-profit organizations in production environments
+
+### ❌ Government & Military Use
+- **ANY use by government agencies, departments, or contractors**
+- **ANY military, defense, or national security applications**
+- Use by government-funded entities (except accredited educational institutions)
+- Use in government research facilities or laboratories
+- Use by government contractors or subcontractors
+- Intelligence, surveillance, or law enforcement applications
+
+### ❌ Dual-Use Applications
+- Weapons development or testing
+- Military command and control systems
+- Surveillance or tracking systems
+- Critical infrastructure targeting
+- Any application with potential military or security implications
+
+## 4. Attribution Requirements
+
+When using or distributing this Software, you must:
+
+1. Preserve all copyright notices and this license
+2. Include the following notice in any documentation or distribution:
+
+   ```
+   This software uses the Symbolic Resonance Solver
+   Copyright © 2024 Sebastian Schepis
+   Licensed under Restricted Use License
+   https://github.com/sschepis/np-complete-solver
+   ```
+
+3. Clearly indicate any modifications you have made to the Software
+
+## 5. No Warranty
+
+**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.**
+
+## 6. Limitation of Liability
+
+**IN NO EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
+
+## 7. Termination
+
+This license automatically terminates if you:
+- Violate any terms of this License
+- Use the Software for any Prohibited Use
+- Fail to comply with attribution requirements
+- Make false claims about your permitted use
+
+Upon termination, you must immediately cease all use and destroy all copies of the Software.
+
+## 8. Commercial & Government Licensing
+
+### For Commercial Use
+
+If you wish to use this Software for commercial purposes, you must obtain a separate commercial license.
+
+**Contact:**
+- Email: sschepis@gmail.com
+- Website: https://nphardsolver.com/licensing
+
+**Commercial License Benefits:**
+- Production deployment rights
+- Commercial support and maintenance
+- Custom features and integrations
+- Priority bug fixes and updates
+- Legal indemnification
+- Service level agreements (SLAs)
+
+### For Government/Military Use
+
+Government agencies, military organizations, defense contractors, and related entities must obtain a separate government license before any use.
+
+**Contact:**
+- Email: sschepis@gmail.com
+- Website: https://nphardsolver.com/government-licensing
+
+**Government License Covers:**
+- Government agency deployment
+- Defense contractor use
+- Military applications
+- Intelligence and security applications
+- Critical infrastructure applications
+- Comprehensive security audits and certifications
+
+## 9. Export Control
+
+You acknowledge that this Software may be subject to export control laws and regulations. You agree to comply with all applicable export and import control laws and regulations in your use of the Software.
+
+## 10. Jurisdiction
+
+This License shall be governed by and construed in accordance with the laws of the United States and the State of California, without regard to conflict of law principles.
+
+## 11. Enforcement
+
+The copyright holders reserve the right to:
+- Monitor compliance with this License
+- Request proof of permitted use
+- Revoke licenses for violations
+- Seek legal remedies for unauthorized use
+- Report violations to appropriate authorities
+
+## 12. Modifications to License
+
+The copyright holders reserve the right to modify this License for future versions of the Software. Your continued use of updated versions constitutes acceptance of any license modifications.
+
+## 13. Severability
+
+If any provision of this License is held to be unenforceable or invalid, such provision shall be modified to the minimum extent necessary to make it enforceable and valid, and the remaining provisions shall remain in full force and effect.
+
+## 14. Entire Agreement
+
+This License constitutes the entire agreement between you and the copyright holders regarding the use of the Software and supersedes all prior agreements and understandings.
+
+---
+
+## Summary of Use Rights
+
+| Use Case | Allowed? | Requires License? |
+|----------|----------|-------------------|
+| Personal study/hobby | ✅ Yes | No |
+| Academic research | ✅ Yes | No |
+| University teaching | ✅ Yes | No |
+| Charitable organization | ✅ Yes | No |
+| For-profit company | ❌ No | Yes - Commercial |
+| Government agency | ❌ No | Yes - Government |
+| Military/Defense | ❌ No | Yes - Government |
+| Startup product | ❌ No | Yes - Commercial |
+| Revenue generation | ❌ No | Yes - Commercial |
+
+---
+
+**By using this Software, you acknowledge that you have read, understood, and agree to be bound by the terms of this License.**
+
+**For licensing inquiries:** sschepis@gmail.com
+
+**Version 1.0.0 - November 2024**
