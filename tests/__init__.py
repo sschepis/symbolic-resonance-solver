@@ -1,0 +1,1 @@
+"""Test suite for symbolic-resonance-solver package."""
