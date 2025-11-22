@@ -6,6 +6,10 @@ include PUBLISHING.md
 include requirements.txt
 include requirements-dev.txt
 
+# Include notebooks
+recursive-include notebooks *.ipynb
+recursive-include notebooks *.md
+
 # Include package data
 recursive-include srs *.py
 recursive-include benchmarks *.py

@@ -126,6 +126,25 @@ vc_problem = VertexCoverProblem(
     cover_size=3
 )
 ```
+## 📓 Interactive Notebooks
+
+Explore **Jupyter notebooks** for interactive demonstrations with visualizations:
+
+```bash
+pip install symbolic-resonance-solver matplotlib seaborn jupyter
+cd notebooks
+jupyter notebook solver_demo.ipynb
+```
+
+The `solver_demo.ipynb` notebook includes:
+- 📊 **Convergence visualization** - 4-panel analysis of solver behavior
+- 📈 **Scalability testing** - Performance across problem sizes (5-15 variables)
+- ⚙️ **Configuration tuning** - Comparing different solver settings
+- 🔬 **Entropy dynamics** - Deep-dive into quantum-inspired algorithm
+- 📉 **Performance metrics** - Detailed charts and statistics
+
+See [`notebooks/README.md`](notebooks/README.md) for details.
+
 
 ## 🎯 Command-Line Interface
 
