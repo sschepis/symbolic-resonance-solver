@@ -8,16 +8,16 @@ version = "0.1.0"
 description = "Revolutionary NP-complete problem solver using symbolic entropy spaces and quantum resonance dynamics"
 readme = "README.md"
 requires-python = ">=3.9"
-license = {text = "MIT"}
+license = {text = "Restricted Use License - See LICENSE file"}
 authors = [
-    {name = "Symbolic Resonance Team", email = "support@nphardsolver.com"}
+    {name = "Sebastian Schepis", email = "sschepis@gmail.com"}
 ]
 keywords = ["NP-complete", "SAT", "optimization", "quantum", "symbolic resonance"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Science/Research",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
+    "License :: Other/Proprietary License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",

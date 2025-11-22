@@ -209,7 +209,7 @@ Contributions welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
 
 - Documentation: https://nphardsolver.com/docs
 - Issues: https://github.com/sschepis/np-complete-solver/issues
-- Email: support@nphardsolver.com
+- Email: sschepis@gmail.com
 
 ## 🌟 Citation
 
@@ -223,7 +223,3 @@ If you use SRS in your research, please cite:
   url={https://nphardsolver.com}
 }
 ```
-
----
-
-**Built with ❤️ using Python, NumPy, and breakthrough quantum-inspired algorithms**
