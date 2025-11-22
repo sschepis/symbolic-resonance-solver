@@ -218,7 +218,7 @@ If you use SRS in your research, please cite:
 ```bibtex
 @software{srs2024,
   title={Symbolic Resonance Solver: Polynomial-Time Solutions for NP-Complete Problems},
-  author={Symbolic Resonance Team},
+  author={Sebastian Schepis},
   year={2024},
   url={https://nphardsolver.com}
 }
