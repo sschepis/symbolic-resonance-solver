@@ -111,6 +111,13 @@ ENV/
 env.bak/
 venv.bak/
 
+# PyPI credentials (never commit these!)
+.pypirc
+*.token
+*_token
+secrets/
+.secrets/
+
 # Spyder project settings
 .spyderproject
 .spyproject
