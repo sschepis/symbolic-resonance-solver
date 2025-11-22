@@ -3,6 +3,7 @@
 from typing import Any, Dict, List, Optional
 
 from pydantic import BaseModel, Field
+from srs.types.telemetry import Telemetry
 
 
 class Solution(BaseModel):
@@ -74,7 +75,7 @@ class Solution(BaseModel):
         description="Computation time in seconds"
     )
     
-    telemetry: Optional[List["TelemetryPoint"]] = Field(
+    telemetry: Optional[Telemetry] = Field(
         default=None,
         description="Telemetry data from solving process"
     )
@@ -114,7 +115,3 @@ class Solution(BaseModel):
             f"time={self.compute_time:.3f}s)"
         )
 
-
-# Forward reference resolution
-from srs.types.telemetry import TelemetryPoint
-Solution.model_rebuild()

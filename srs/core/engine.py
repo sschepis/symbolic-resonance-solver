@@ -6,7 +6,7 @@ import time
 
 from srs.types.config import SRSConfig
 from srs.types.solution import Solution
-from srs.types.telemetry import TelemetryPoint
+from srs.types.telemetry import TelemetryPoint, Telemetry
 from srs.constraints.base import Constraint
 from srs.core.hilbert import HilbertSpace
 from srs.core.particle import EntropyParticle
@@ -212,7 +212,7 @@ class SRSSolver:
             confidence=satisfied_count / len(constraints),
             found_at=iterations if converged else 0,
             compute_time=execution_time,
-            telemetry=telemetry_points if telemetry else None,
+            telemetry=Telemetry(points=telemetry_points) if telemetry else None,
             metadata={"converged": converged, "iterations": iterations}
         )
     

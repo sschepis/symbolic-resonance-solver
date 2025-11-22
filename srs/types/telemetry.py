@@ -1,7 +1,7 @@
 """Telemetry types for tracking solver progress."""
 
 from datetime import datetime
-from typing import Optional
+from typing import List, Optional
 
 from pydantic import BaseModel, Field
 
@@ -74,3 +74,65 @@ class TelemetryPoint(BaseModel):
             f"satisfaction={self.satisfaction_rate:.3f}, "
             f"lyapunov={self.lyapunov_metric:.3f}"
         )
+
+
+class Telemetry(BaseModel):
+    """Telemetry data collection wrapper providing convenient access to history arrays.
+    
+    This wraps a list of TelemetryPoint objects and provides array-like access
+    to common metrics over time.
+    """
+    
+    points: List[TelemetryPoint] = Field(
+        default_factory=list,
+        description="List of telemetry points"
+    )
+    
+    class Config:
+        """Pydantic configuration."""
+        validate_assignment = True
+    
+    @property
+    def entropy_history(self) -> List[float]:
+        """Get history of symbolic entropy values."""
+        return [p.symbolic_entropy for p in self.points]
+    
+    @property
+    def convergence_history(self) -> List[float]:
+        """Get history of convergence (inverse of satisfaction rate).
+        
+        This represents the objective function over time (lower is better).
+        """
+        return [1.0 - p.satisfaction_rate for p in self.points]
+    
+    @property
+    def violation_history(self) -> List[float]:
+        """Get history of constraint violation rates."""
+        return [1.0 - p.satisfaction_rate for p in self.points]
+    
+    @property
+    def satisfaction_history(self) -> List[float]:
+        """Get history of satisfaction rates."""
+        return [p.satisfaction_rate for p in self.points]
+    
+    @property
+    def lyapunov_history(self) -> List[float]:
+        """Get history of Lyapunov metric values."""
+        return [p.lyapunov_metric for p in self.points]
+    
+    @property
+    def resonance_history(self) -> List[float]:
+        """Get history of resonance strength values."""
+        return [p.resonance_strength for p in self.points]
+    
+    def __len__(self) -> int:
+        """Get number of telemetry points."""
+        return len(self.points)
+    
+    def __getitem__(self, index: int) -> TelemetryPoint:
+        """Get telemetry point by index."""
+        return self.points[index]
+    
+    def __iter__(self):
+        """Iterate over telemetry points."""
+        return iter(self.points)
